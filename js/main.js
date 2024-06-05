@@ -40,10 +40,6 @@ calcola.addEventListener("click",
 
         let sconto = 0;
 
-        console.log("sconto: -€", sconto);
-
-        document.getElementById("sconto").innerHTML = sconto.toFixed(2);
-
         if (etaPasseggero < 18) { // va applicato uno sconto del 20% per gli under 18
 
             sconto = (prezzoBiglietto * 0.2);
@@ -57,6 +53,10 @@ calcola.addEventListener("click",
             // document.getElementById("sconto").innerHTML = sconto.toFixed(2);
         
         }
+
+        console.log("sconto: -€", sconto);
+
+        document.getElementById("sconto").innerHTML = sconto.toFixed(2);
 
         let prezzoFinale = prezzoBiglietto - sconto;
 
