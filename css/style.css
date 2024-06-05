@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --grey: #d3d4ce;
+    --white: #f6f6f6;
+    --blue: #287194;
+    --dkblue: #023246;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: var(--blue);
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main_title {
+    color: var(--white);
+    font-size: 20px;
+}
+
+h1 {
+    padding: 10px 0;
+    border-bottom: dashed 3px var(--white);
+}
+
+.fa-train {
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.info {
+    margin-top: 20px;
+    padding: 25px;
+    background-color: rgba(2, 50, 70, 0.7);
+    border-radius: 20px;
+    color: var(--grey);
+    line-height: 1.7;
+    text-align: left;
+}
+
+.row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.col_50 {
+    width: 50%;
+    text-align: center;
+    color: var(--grey);
+}
+
+.card {
+    margin-top: 20px;
+    background-color: var(--grey);
+    border: dashed 3px var(--dkblue);
+    color: var(--dkblue);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#prezzo_finale {
+    margin-top: 20px;
+    color: var(--grey);
+}
+
+.card span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
