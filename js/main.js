@@ -10,24 +10,22 @@ const inputAge = document.getElementById("eta");
 
 // selezione bottone
 const calcola = document.querySelector(".button")
-
 console.log(calcola);
 
+
+// dichiarazione variabili
 let chilometriViaggio;
 let etaPasseggero;
 
 // gestione dell'interazione dell'utente
-
 calcola.addEventListener("click",
 
     function () {
 
         chilometriViaggio = parseInt(inputKm.value);
-
         console.log("chilometri: ", chilometriViaggio);
 
         etaPasseggero = parseInt(inputAge.value);
-
         console.log("età: ", etaPasseggero);
 
         // Sulla base di queste informazioni, il bottone dovrà calcolare il prezzo totale del viaggio, secondo queste regole:
