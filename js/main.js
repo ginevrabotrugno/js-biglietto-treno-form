@@ -44,14 +44,10 @@ calcola.addEventListener("click",
 
             sconto = (prezzoBiglietto * 0.2);
 
-            // document.getElementById("sconto").innerHTML = sconto.toFixed(2);
-
         } else if ( etaPasseggero > 65) { //  va applicato uno sconto del 40% per gli over 65
 
             sconto = (prezzoBiglietto * 0.4);
-             
-            // document.getElementById("sconto").innerHTML = sconto.toFixed(2);
-        
+                     
         }
 
         console.log("sconto: -€", sconto);
